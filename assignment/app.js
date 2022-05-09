@@ -14,7 +14,7 @@ const mints = get_date.getMinutes();
 const secds = get_date.getSeconds();
  
 // print time in HH:MM:SS
-const ans = (`${hrs}:${mints}:${secds}`);
+const ans = (`Current time is : ${hrs}:${mints}:${secds}`);
 
 
 const server = http.createServer((req,res)=>{
